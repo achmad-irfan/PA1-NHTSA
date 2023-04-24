@@ -14,12 +14,12 @@ complete information about accidents that occurred during 2021.</p>
 <p> The main aim of your study is to provide a number of recommendations
 about how to reduce the number of accidents on the highway. To do this,
 first I  need to identify the following data:</p>
-<p> Conditions that increase the risk of an accident </p>
-<p> Top 10 states where the most accidents occur </p>
-<p> The average number of accidents per day by hour accident </p>
-<p> Percentage of accidents caused by drunk drivers </p>
-<p> Percentage of accidents in rural and urban areas </p>
-<p> Number of accidents by day </p>
+<p>• Conditions that increase the risk of an accident </p>
+<p>•  Top 10 states where the most accidents occur </p>
+<p>•  The average number of accidents per day by hour accident </p>
+<p>•  Percentage of accidents caused by drunk drivers </p>
+<p>•  Percentage of accidents in rural and urban areas </p>
+<p>•  Number of accidents by day </p>
 
 </p>
 <h3>Dataset:</h3>
