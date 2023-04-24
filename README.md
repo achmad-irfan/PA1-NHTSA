@@ -4,9 +4,24 @@
 <h2> NHTSA</h2>
 <p> URL Dashoboard project : <a href="https://app.powerbi.com/view?r=eyJrIjoiMjI5NDY4NGMtNjg2Zi00ZjA1LWI4Y2UtYWJjOTNhZDYxNmU0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">NHTSA</a></p>
 <h3> Background Project :</h3>
-<p> </p>
+<p> NHTSA is one such department government in the United States focused on reducing the number
+traffic accident on the highway.
+Currently NHTSA is brewing a new regulation that will be implemented this year
+front. I was asked to
+analyze the data collected during 2021. This data is data
+complete information about accidents that occurred during 2021.</p>
 <h3>Purpose:</h3>
-<p></p>
+<p> The main aim of your study is to provide a number of recommendations
+about how to reduce the number of accidents on the highway. To do this,
+first I  need to identify the following data:</p>
+<p> Conditions that increase the risk of an accident </p>
+<p> Top 10 states where the most accidents occur </p>
+<p> The average number of accidents per day by hour accident </p>
+<p> Percentage of accidents caused by drunk drivers </p>
+<p> Percentage of accidents in rural and urban areas </p>
+<p> Number of accidents by day </p>
+
+</p>
 <h3>Dataset:</h3>
 <p>In this project, it used 4 csv files, customer data, sales report branch, sales report menu, and sales report customer, each file is data from 2022 to 2023 and must imported to microsoft power BI</p>
 <h3>Dashboard result:</h3>
