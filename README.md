@@ -24,6 +24,8 @@ first I  need to identify the following data:</p>
 </p>
 <h3>Dataset:</h3>
 <p>Data can be access in the following link : <a href="https://drive.google.com/file/d/1wiFf1VpFRXXUz9XpHjb--6vFDoNiCVDK/view?usp=sharing">Click here</a></p>
+<h3>Data Preparation</h3>
+<h4>Data Cleansing</h4>
 <h3>Dashboard result:</h3>
 <h4>Page Customer Data:</h4>
 <p align="center"> 
