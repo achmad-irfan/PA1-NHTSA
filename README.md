@@ -11,7 +11,7 @@ front. I was asked to
 analyze the data collected during 2021. This data is data
 complete information about accidents that occurred during 2021.</p>
 <h3>Purpose:</h3>
-<p> The main aim of your study is to provide a number of recommendations
+<p> The main purpose is to provide a number of recommendations
 about how to reduce the number of accidents on the highway. To do this,
 first I  need to identify the following data:</p>
 <p>• Conditions that increase the risk of an accident </p>
