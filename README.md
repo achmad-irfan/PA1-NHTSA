@@ -78,8 +78,9 @@ first I  need to identify the following data:</p>
   
 <h3>5. Data Analyze:</h3>
 <p style="margin-left: 20px;text-align:justify">The querry for identify the following item  :</p>
-<p style="margin-left: 30px">•  Conditions that increase the risk of an accident </p>
 <p style="margin-left: 30px">•  Top 10 states where the most accidents occur </p>
+<p style="margin-left: 45px">Querry
+<p style="margin-left: 45px">Output	
 <p style="margin-left: 30px">•  The average number of accidents per day by hour accident </p>
 <p style="margin-left: 30px">•  Percentage of accidents caused by drunk drivers </p>
 <p style="margin-left: 30px">•  Percentage of accidents in rural and urban areas </p>
