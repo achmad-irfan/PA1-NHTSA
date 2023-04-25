@@ -172,4 +172,4 @@ first I  need to identify the following data:</p>
 <img src="dataanalyze5.png" class="img-fluid" alt="">  
 </p>
 
-
+<h3>6. Insight and Recomendation</h3>
