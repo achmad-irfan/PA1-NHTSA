@@ -50,7 +50,14 @@ first I  need to identify the following data:</p>
 <p> From data validation, found that data time in column timestamp_of_crash  isn't displayed in local time, so it must be converted to local time in every states in USA, the step to convert time is shown in this following item: </p>
 <h5>Import table local time of states USA to the same server as main table</h5>
 <p> this table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="https://docs.google.com/spreadsheets/d/1I4XkiuiteYmqRUeOvniIAuO7CPi0wFmr8j85eGVXJJQ/edit?usp=sharing">Click here</a></p>
+<p>output:<p>
 <h5>Add new coloumn in main table </h5>
+<p>Querry for add new coloumn in main table:
+ <div style="height:200px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+  <p style="font-family:verdana"> alter table	crash </p>
+  <p style="font-family:verdana">add column	timezone_code text,</p>
+  <p style="font-family:verdana">add column	local_time timestamp </p>
+  </div>
 <h5>Insert data in new coloumn </h5>
 <h5>Import table local time of states USA </h5>
   
