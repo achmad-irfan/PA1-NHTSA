@@ -27,27 +27,10 @@ first I  need to identify the following data:</p>
 <h3>Data Preparation</h3>
 <h4>Data Validation</h4>
 <p> All the data must be checked whetever there is a abnormal data. The  queery for data checking and validating :</p>
-<div style="height:200px;width:1000px;overflow:auto;border:4px solid black;padding:2%">
-<p style="font-family:verdana"> count(consecutive_number) from crash ;-- no abnormal data found </p>
-<p style="font-family: Arial"> select count(distinct consecutive_number) from crash ; -- data OK </p>
-<p style="font-family:verdana"> select  distinct state_name from crash ;</p>
-<p style="font-family:verdana"> select  max(number_of_vehicle_forms_submitted_all), min(number_of_vehicle_forms_submitted_all) from crash ;</p>
-<p style="font-family:verdana"> select  max(number_of_motor_vehicles_in_transport_mvit), min(number_of_motor_vehicles_in_transport_mvit) from crash;</p>
-<p style="font-family:verdana"> select  max(number_of_parked_working_vehicles), min(number_of_parked_working_vehicles) from crash;</p>
-<p style="font-family:verdana"> select  max(number_of_forms_submitted_for_persons_not_in_motor_vehicles), min(number_of_forms_submitted_for_persons_not_in_motor_vehicles) from crash  ;</p>
-<p style="font-family:verdana"> select  max(number_of_persons_in_motor_vehicles_in_transport_mvit), <p style="font-family:verdana"> min(number_of_persons_in_motor_vehicles_in_transport_mvit) from crash ;</p>
-<p style="font-family:verdana"> select  max(number_of_persons_not_in_motor_vehicles_in_transport_mvit), min(number_of_persons_not_in_motor_vehicles_in_transport_mvit) from crash ;</p>
-<p style="font-family:verdana"> select distinct land_use_name from crash ;</p>
-<p style="font-family:verdana"> select distinct functional_system_name from crash ;</p>
-<p style="font-family:verdana"> select min(milepoint),max(milepoint) from crash ;</p>
-<p style="font-family:verdana"> select distinct manner_of_collision_name from crash ;</p>
-<p style="font-family:verdana"> select distinct type_of_intersection_name from crash   ;</p>
-<p style="font-family:verdana"> select distinct light_condition_name from crash ;</p>
-<p style="font-family:verdana"> select distinct atmospheric_conditions_1_name from crash ;</p>
-<p style="font-family:verdana"> select distinct number_of_fatalities from crash   ;</p>
-<p style="font-family:verdana"> select distinct number_of_drunk_drivers from crash  ;</p>
-<p style="font-family:verdana"> select min(timestamp_of_crash),max(timestamp_of_crash) from crash  ; -- ditemukan data timezonenya tidak sesuai dengan lokal time state amerika dan ada sebagian data di luar tahun 2021 </div>
-  </div>
+
+<div style="height:200px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+As you can see, once there's enough text in this box, the box will grow scroll bars... that's why we call it a scroll box! You could also place an image into the scroll box.
+</div>
 
 <h4>Data Cleansing</h4>
 
