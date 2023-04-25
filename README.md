@@ -30,7 +30,7 @@ first I  need to identify the following data:</p>
 
  
   
-  <div style="height:150px;width:250px;overflow:auto;border:4px solid black;padding:2%">This scroll box has had a border added to it. You can add borders to anything in HTML - including scroll boxes.</div>
+  <div style="height:300px;width:1000px;overflow:auto;border:4px solid black;padding:2%">This scroll box has had a border added to it. You can add borders to anything in HTML - including scroll boxes.</div>
 
 
 
