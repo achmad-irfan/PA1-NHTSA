@@ -14,7 +14,7 @@ complete information about accidents that occurred during 2021.</p>
 <p> The main purpose is to provide a number of recommendations
 about how to reduce the number of accidents on the highway. To do this,
 first I  need to identify the following data:</p>
-<p>• Conditions that increase the risk of an accident </p>
+<p>•  Conditions that increase the risk of an accident </p>
 <p>•  Top 10 states where the most accidents occur </p>
 <p>•  The average number of accidents per day by hour accident </p>
 <p>•  Percentage of accidents caused by drunk drivers </p>
@@ -26,6 +26,8 @@ first I  need to identify the following data:</p>
 <p>Data can be access in the following link : <a href="https://drive.google.com/file/d/1wiFf1VpFRXXUz9XpHjb--6vFDoNiCVDK/view?usp=sharing">Click here</a></p>
 <h3>Data Preparation</h3>
 <h4>Data Validation</h4>
+<p> All the data must be checked whetever there is a abnormal data. The  queery for data checking and validating :
+
 <h4>Data Cleansing</h4>
 <h3>Dashboard result:</h3>
 <h4>Page Customer Data:</h4>
