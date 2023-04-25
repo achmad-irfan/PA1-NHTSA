@@ -172,7 +172,8 @@ first I  need to identify the following data:</p>
 </p>
 
 <h3>6. Insight and Recomendation</h3>
-<p style="margin-left: 20px">•  Based on data, texas and california is states that have most traffic accident in 2022 </p>
-<p style="margin-left: 20px">•  The interval time between 12-15 is the most prone to accident    </p>
-<p style="margin-left: 20px">•  25% percent of traffic accident in usa is because people drunk    </p>
-<p style="margin-left: 20px">•  The probability of traffic accident is 25% higher in weekend than weekday </p>
+<p style="margin-left: 40px">•  Based on data, texas and california is states that have most traffic accident in 2022 </p>
+<p style="margin-left: 40px">•  The interval time between 12-15 is the most prone to accident    </p>
+<p style="margin-left: 40px">•  25% percent of traffic accident in usa is because people drunk    </p>
+<p style="margin-left: 40px">•  The probability of traffic accident is 25% higher in weekend than weekday </p>
+<p style="margin-left: 40px">•  Based on data, to reduce the number of traffic accident in 2023, We recommend increasing the number of sheriffs on duty during lunch hours, especially on weekends, as this is an accident-prone time in the Texas and California areas.</p>
