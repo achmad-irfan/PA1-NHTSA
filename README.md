@@ -6,8 +6,7 @@
 <h3> 1. Background Project :</h3>
 <p style="margin-left: 20px;text-align:justify"> NHTSA is one such department government in the United States focused on reducing the number traffic accident on the highway. Currently NHTSA is brewing a new regulation that will be implemented next year. I was asked to analyze the data collected during 2021. This data is a complete information about accidents that occurred during 2021.</p>
 <h3>2. Purpose:</h3>
-<p style="margin-left: 20px;text-align:justify">  The main purpose is to provide a number of recommendations
-about how to reduce the number of accidents on the highway. To do this,
+<p style="margin-left: 20px;text-align:justify">  The main purpose is to provide a number of recommendations about how to reduce the number of accidents on the highway. To do this,
 first I  need to identify the following data:</p>
 <p style="margin-left: 20px">•  Conditions that increase the risk of an accident </p>
 <p style="margin-left: 20px">•  Top 10 states where the most accidents occur </p>
@@ -77,4 +76,14 @@ first I  need to identify the following data:</p>
   <p style="font-family:verdana">  where local_time not between '2021-01-01 00:00:00' and '2021-12-31 23:59:59' </p>
   </div>
   
+<h3>5. Data Analyze:</h3>
+<p style="margin-left: 20px;text-align:justify">The querry for identify the following item  :</p>
+<p style="margin-left: 30px">•  Conditions that increase the risk of an accident </p>
+<p style="margin-left: 30px">•  Top 10 states where the most accidents occur </p>
+<p style="margin-left: 30px">•  The average number of accidents per day by hour accident </p>
+<p style="margin-left: 30px">•  Percentage of accidents caused by drunk drivers </p>
+<p style="margin-left: 30px">•  Percentage of accidents in rural and urban areas </p>
+<p style="margin-left: 30px">•  Number of accidents by day </p>
+
+
 
