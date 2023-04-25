@@ -75,6 +75,11 @@ first I  need to identify the following data:</p>
    <p style="font-family:verdana"> update	crash </p>
    <p style="font-family:verdana"> set		local_time = timestamp_of_crash at time zone timezone_code </p>
   </div>
-<h4>Import table local time of states USA </h4>
+<h4>Remove data before and after 2022 </h4>
+<p>Querry for Remove data before and after 2022 table crash :
+ <div style="height:50px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+	 <p style="font-family:verdana">  delete from	crash </p>
+  <p style="font-family:verdana">  where local_time not between '2021-01-01 00:00:00' and '2021-12-31 23:59:59' </p>
+  </div>
   
 
