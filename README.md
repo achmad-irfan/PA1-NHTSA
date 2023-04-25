@@ -90,15 +90,52 @@ first I  need to identify the following data:</p>
 <p style="margin-left: 45px">Output	
 <p style="margin-left: 30px">•  The average number of accidents per day by hour accident </p>
 <p style="margin-left: 45px">Querry
+	<div style="margin-left: 45px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">	
+	<p style="font-family:verdana"> select	to_char(local_time,'HH24') as jam, </p>
+	<p style="font-family:verdana"> count(consecutive_number)/(select extract(day from (max(local_time)-min(local_time)))+1 from crash)rata2_kecelakaan </p>
+	<p style="font-family:verdana"> from crash </p>
+	<p style="font-family:verdana"> group by jam </p>
+	<p style="font-family:verdana"> order by rata2_kecelakaan desc </p>
 <p style="margin-left: 45px">Output
 <p style="margin-left: 30px">•  Percentage of accidents caused by drunk drivers </p>
 <p style="margin-left: 45px">Querry
+	<div style="margin-left: 45px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
+	<p style="font-family:verdana">select	mabuk.kondisi, count(mabuk.kondisi) as jumlah </p>
+	<p style="font-family:verdana">	from </p>
+	<p style="font-family:verdana"> (select	consecutive_number, </p>
+	<p style="font-family:verdana"> case </p>
+			<p style="font-family:verdana"> when number_of_drunk_drivers = 0 </p>
+					<p style="font-family:verdana"> then 'tidak mabuk' </p>
+				<p style="font-family:verdana"> else 'mabuk' </p>
+			<p style="font-family:verdana"> end kondisi </p>
+	<p style="font-family:verdana"> from crash) as mabuk </p>
+	<p style="font-family:verdana">group by 1 </p>
 <p style="margin-left: 45px">Output
 <p style="margin-left: 30px">•  Percentage of accidents in rural and urban areas </p>
 <p style="margin-left: 45px">Querry
+	<div style="margin-left: 45px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
+		<p style="font-family:verdana"> select	land, sum(count) from </p>
+		<p style="font-family:verdana"> (select	land_use_name,</p>
+	 		<p style="font-family:verdana"> count(consecutive_number),</p>
+			<p style="font-family:verdana"> case </p>
+				<p style="font-family:verdana"> when land_use_name ='Rural'</p>
+					<p style="font-family:verdana"> then 'Rural'</p>
+				<p style="font-family:verdana"> when land_use_name ='Urban'</p>
+					<p style="font-family:verdana"> then 'Urban'</p>
+				<p style="font-family:verdana"> else 'Others'</p>
+			<p style="font-family:verdana"> end land </p>
+		<p style="font-family:verdana"> from crash </p>
+		<p style="font-family:verdana"> group by land_use_name) as x </p>
+		<p style="font-family:verdana">group by land </p>
 <p style="margin-left: 45px">Output
 <p style="margin-left: 30px">•  Number of accidents by day </p>
 <p style="margin-left: 45px">Querry
+	<div style="margin-left: 45px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
+	<p style="font-family:verdana">select hari, jumlah from </p>
+	<p style="font-family:verdana"> (select	to_char(local_time,'D') harii, to_char(local_time,'Day') hari, count(consecutive_number) jumlah </p>
+	<p style="font-family:verdana"> from crash </p>
+	<p style="font-family:verdana"> group by hari,harii) as x </p>
+	<p style="font-family:verdana"> order by harii </p>
 <p style="margin-left: 45px">Output
 
 
