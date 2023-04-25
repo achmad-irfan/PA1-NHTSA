@@ -40,6 +40,9 @@ bsjds,dnsd,smadnsam,d
 </div>
 <h4>Data Cleansing</h4>
 <p> From data validation, found that data time in column timestamp_of_crash  isn't displayed in local time, so it must be converted to local time in every states in USA, the step to convert time is shown in this following item: </p>
-
-  the step for convert 
+<h5>Import table local time of states USA </h5>
+<h5>Add new coloumn in main table </h5>
+<h5>Insert data in new coloumn </h5>
+<h5>Import table local time of states USA </h5>
+  
 
