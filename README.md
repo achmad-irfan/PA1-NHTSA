@@ -32,7 +32,7 @@ first I  need to identify the following data:</p>
   
   <div style="height:200px;width:1000px;overflow:auto;border:4px solid black;padding:2%">
 <p style="font-family: Arial";font-size: 9px;text-align: center>  count(consecutive_number) from crash ; </p>
-<p style="font-family: Arial";font-size: 9px;text-align: center> select  count(distinct consecutive_number) from crash ; -- data OK <-/p>
+<p style="font-family: Arial";font-size: 9px;text-align: center> select  count(distinct consecutive_number) from crash ; -- data OK /p>
 select  distinct state_name from crash ;
 select  max(number_of_vehicle_forms_submitted_all), min(number_of_vehicle_forms_submitted_all) from crash ;
 select  max(number_of_motor_vehicles_in_transport_mvit), min(number_of_motor_vehicles_in_transport_mvit) from crash;
