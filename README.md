@@ -47,14 +47,7 @@ first I  need to identify the following data:</p>
 <p style="font-family:verdana"> select distinct atmospheric_conditions_1_name from crash ;--no abnormal data</p>
 <p style="font-family:verdana"> select distinct number_of_fatalities from crash   ; --no abnormal data</p>
 <p style="font-family:verdana"> select distinct number_of_drunk_drivers from crash  ; --no abnormal data</p>
-<p style="font-family:verdana"> select min(timestamp_of_crash),max(timestamp_of_crash) from crash  ; -- found that time is not in local state of USA, so it must to convert to local time </div>
- 
- 
- 
- 
- 
-  
-  
+<p style="font-family:verdana"> select min(timestamp_of_crash),max(timestamp_of_crash) from crash  ; -- found that time is not in local state of USA, so it must to convert to local time</p>
 </div>
 <h4>4.2 Data Cleansing</h4>
 <p> From data validation, found that data time in column timestamp_of_crash  isn't displayed in local time, so it must be converted to local time in every states in USA, the step to convert time is shown in this following item: </p>
