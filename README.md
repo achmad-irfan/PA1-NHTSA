@@ -39,6 +39,7 @@ first I  need to identify the following data:</p>
 <h4>Data Cleansing</h4>
 <p> From data validation, found that data time in column timestamp_of_crash  isn't displayed in local time, so it must be converted to local time in every states in USA, the step to convert time is shown in this following item: </p>
 <h5>Import table local time of states USA </h5>
+<p> this table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="">Click here</a></p>
 <h5>Add new coloumn in main table </h5>
 <h5>Insert data in new coloumn </h5>
 <h5>Import table local time of states USA </h5>
