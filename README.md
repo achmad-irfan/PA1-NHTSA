@@ -29,8 +29,8 @@ first I  need to identify the following data:</p>
 <p> All the data must be checked whetever there is a abnormal data. The  queery for data checking and validating :</p>
 <details> 
   <summary>Querry Data Validation </summary>
-  <p style="font-family:verdana"> select  count(consecutive_number) from crash ;</p>
-select  count(distinct consecutive_number) from crash ; -- data OK
+  <p style="font-size: 4rem;font-family: impact"> select  count(consecutive_number) from crash ;</p>
+<p style="font-size: 5rem;font-family:verdana"> select  count(distinct consecutive_number) from crash ; -- data OK </p>
 select  distinct state_name from crash ;
 select  max(number_of_vehicle_forms_submitted_all), min(number_of_vehicle_forms_submitted_all) from crash ;
 select  max(number_of_motor_vehicles_in_transport_mvit), min(number_of_motor_vehicles_in_transport_mvit) from crash;
