@@ -31,6 +31,9 @@ first I  need to identify the following data:</p>
   <summary>Querry Data Validation </summary>
   <p style="font-size: 4rem;font-family: impact"> select  count(consecutive_number) from crash ;</p>
 <p style="font-size: 5rem;font-family:verdana"> select  count(distinct consecutive_number) from crash ; -- data OK </p>
+  <div style="height:120px;width:120px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+As you can see, once there's enough text in this box, the box will grow scroll bars... that's why we call it a scroll box! You could also place an image into the scroll box.
+</div>
 select  distinct state_name from crash ;
 select  max(number_of_vehicle_forms_submitted_all), min(number_of_vehicle_forms_submitted_all) from crash ;
 select  max(number_of_motor_vehicles_in_transport_mvit), min(number_of_motor_vehicles_in_transport_mvit) from crash;
