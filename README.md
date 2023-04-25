@@ -43,19 +43,19 @@ first I  need to identify the following data:</p>
 <p style="font-family:verdana"> select distinct number_of_drunk_drivers from crash  ; --no abnormal data</p>
 <p style="font-family:verdana"> select min(timestamp_of_crash),max(timestamp_of_crash) from crash  ; -- found that time is not in local state of USA, so it must to convert to local time</p>
 </div>
-<h4>4.2 Data Cleansing</h4>
-<p> From data validation, found that data time in column timestamp_of_crash  isn't displayed in local time, so it must be converted to local time in every states in USA, the step to convert time is shown in this following item: </p>
-<h4>Import table local time of states USA to the same server as main table</h4>
-<p> this table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="https://docs.google.com/spreadsheets/d/1I4XkiuiteYmqRUeOvniIAuO7CPi0wFmr8j85eGVXJJQ/edit?usp=sharing">Click here</a></p>
-<p>output:<p>
-<h4>Add new coloumn in main table </h4>
-<p>Querry for add new coloumn in table crash:
+<h4 style="margin-left: 10px">4.2 Data Cleansing</h4>
+<p style="margin-left: 30px"> From data validation, found that data time in column timestamp_of_crash  isn't displayed in local time, so it must be converted to local time in every states in USA, the step to convert time is shown in this following item: </p>
+<h4 style="margin-left: 30px">Import table local time of states USA to the same server as main table</h4>
+<p style="margin-left: 30px"> this table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="https://docs.google.com/spreadsheets/d/1I4XkiuiteYmqRUeOvniIAuO7CPi0wFmr8j85eGVXJJQ/edit?usp=sharing">Click here</a></p>
+<p style="margin-left: 30px">output:<p>
+<h4 style="margin-left: 10px">Add new coloumn in main table </h4>
+<p style="margin-left: 30px">Querry for add new coloumn in table crash:
  <div style="height:50px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
   <p style="font-family:verdana"> alter table	crash </p>
   <p style="font-family:verdana">add column	timezone_code text,</p>
   <p style="font-family:verdana">add column	local_time timestamp </p>
   </div>
-<h4>Insert data in new coloumn </h4>
+<h4 style="margin-left: 10px">Insert data in new coloumn </h4>
 <p>Querry for add data in column timezone_code in  table crash based on data in table us_timezone:
  <div style="height:50px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
   <p style="font-family:verdana"> update	crash</p>
@@ -69,7 +69,7 @@ first I  need to identify the following data:</p>
    <p style="font-family:verdana"> update	crash </p>
    <p style="font-family:verdana"> set		local_time = timestamp_of_crash at time zone timezone_code </p>
   </div>
-<h4>Remove data before and after 2022 </h4>
+<h4 style="margin-left: 10px">Remove data before and after 2022 </h4>
 <p>Querry for Remove data before and after 2022 table crash :
  <div style="height:50px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
 	 <p style="font-family:verdana">  delete from	crash </p>
