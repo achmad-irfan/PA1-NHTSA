@@ -96,6 +96,7 @@ first I  need to identify the following data:</p>
 	<p style="font-family:verdana"> from crash </p>
 	<p style="font-family:verdana"> group by jam </p>
 	<p style="font-family:verdana"> order by rata2_kecelakaan desc </p>
+	</div>
 <p style="margin-left: 45px">Output
 <p style="margin-left: 30px">•  Percentage of accidents caused by drunk drivers </p>
 <p style="margin-left: 45px">Querry
@@ -110,6 +111,7 @@ first I  need to identify the following data:</p>
 			<p style="font-family:verdana"> end kondisi </p>
 	<p style="font-family:verdana"> from crash) as mabuk </p>
 	<p style="font-family:verdana">group by 1 </p>
+	</div>
 <p style="margin-left: 45px">Output
 <p style="margin-left: 30px">•  Percentage of accidents in rural and urban areas </p>
 <p style="margin-left: 45px">Querry
@@ -127,6 +129,7 @@ first I  need to identify the following data:</p>
 		<p style="font-family:verdana"> from crash </p>
 		<p style="font-family:verdana"> group by land_use_name) as x </p>
 		<p style="font-family:verdana">group by land </p>
+		</div>
 <p style="margin-left: 45px">Output
 <p style="margin-left: 30px">•  Number of accidents by day </p>
 <p style="margin-left: 45px">Querry
@@ -136,6 +139,7 @@ first I  need to identify the following data:</p>
 	<p style="font-family:verdana"> from crash </p>
 	<p style="font-family:verdana"> group by hari,harii) as x </p>
 	<p style="font-family:verdana"> order by harii </p>
+	</div>
 <p style="margin-left: 45px">Output
 
 
