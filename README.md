@@ -26,7 +26,33 @@ first I  need to identify the following data:</p>
 <p>Data can be access in the following link : <a href="https://drive.google.com/file/d/1wiFf1VpFRXXUz9XpHjb--6vFDoNiCVDK/view?usp=sharing">Click here</a></p>
 <h3>Data Preparation</h3>
 <h4>Data Validation</h4>
-<p> All the data must be checked whetever there is a abnormal data. The  queery for data checking and validating :
+<p> All the data must be checked whetever there is a abnormal data. The  queery for data checking and validating :</p>
+<details> 
+  <summary>Querry Data Validation </summary>
+  <p style="font-family:verdana"> select  count(consecutive_number) from crash ;</p>
+select  count(distinct consecutive_number) from crash ; -- data OK
+select  distinct state_name from crash ;
+select  max(number_of_vehicle_forms_submitted_all), min(number_of_vehicle_forms_submitted_all) from crash ;
+select  max(number_of_motor_vehicles_in_transport_mvit), min(number_of_motor_vehicles_in_transport_mvit) from crash;
+select  max(number_of_parked_working_vehicles), min(number_of_parked_working_vehicles) from crash;
+select  max(number_of_forms_submitted_for_persons_not_in_motor_vehicles), min(number_of_forms_submitted_for_persons_not_in_motor_vehicles) from crash  ;
+select  max(number_of_persons_in_motor_vehicles_in_transport_mvit), min(number_of_persons_in_motor_vehicles_in_transport_mvit) from crash ;
+select  max(number_of_persons_not_in_motor_vehicles_in_transport_mvit), min(number_of_persons_not_in_motor_vehicles_in_transport_mvit) from crash ;
+select distinct land_use_name from crash ;
+select distinct functional_system_name from crash ;
+select min(milepoint),max(milepoint) from crash ;
+select distinct manner_of_collision_name from crash ;
+select distinct type_of_intersection_name from crash   ;
+select distinct light_condition_name from crash ;
+select distinct atmospheric_conditions_1_name from crash ;
+select distinct number_of_fatalities from crash   ;
+select distinct number_of_drunk_drivers from crash  ;
+select min(timestamp_of_crash),max(timestamp_of_crash) from crash  ; -- ditemukan data timezonenya tidak sesuai dengan lokal time state amerika dan ada sebagian data di luar tahun 2021
+</div>
+</details>
+
+
+
 
 <h4>Data Cleansing</h4>
 <h3>Dashboard result:</h3>
