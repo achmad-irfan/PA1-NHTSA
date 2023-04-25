@@ -4,14 +4,14 @@
 <h2> NHTSA</h2>
 <p> URL Dashoboard project : <a href="https://app.powerbi.com/view?r=eyJrIjoiMjI5NDY4NGMtNjg2Zi00ZjA1LWI4Y2UtYWJjOTNhZDYxNmU0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">NHTSA</a></p>
 <h3> 1. Background Project :</h3>
-<p style="margin-left: 20px","text-align:justify"> NHTSA is one such department government in the United States focused on reducing the number
+<p style="margin-left: 20px"> NHTSA is one such department government in the United States focused on reducing the number
 traffic accident on the highway.
 Currently NHTSA is brewing a new regulation that will be implemented next year
 . I was asked to
 analyze the data collected during 2021. This data is data
 complete information about accidents that occurred during 2021.</p>
 <h3>2. Purpose:</h3>
-<p style="margin-left: 20px";"text-align:justify">  The main purpose is to provide a number of recommendations
+<p style="margin-left: 20px">  The main purpose is to provide a number of recommendations
 about how to reduce the number of accidents on the highway. To do this,
 first I  need to identify the following data:</p>
 <p>•  Conditions that increase the risk of an accident </p>
