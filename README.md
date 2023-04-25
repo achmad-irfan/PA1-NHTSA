@@ -30,16 +30,26 @@ first I  need to identify the following data:</p>
 
 <div style="height:200px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
 <p style="font-family:verdana"> count(consecutive_number) from crash ;-- to count consecutive number (unique code in every traffic accident) </p>
-<p style="font-family: Arial"> select count(distinct consecutive_number) from crash ; -- data is equivalent with previous queery </p>
+<p style="font-family:verdana"> select count(distinct consecutive_number) from crash ; -- data is equivalent with previous queery </p>
 <p style="font-family:verdana"> select  distinct state_name from crash ; --no abnormal data </p> 
 <p style="font-family:verdana"> select  max(number_of_vehicle_forms_submitted_all), min(number_of_vehicle_forms_submitted_all) from crash ; --no abnormal data </p>
 <p style="font-family:verdana"> select  max(number_of_motor_vehicles_in_transport_mvit), min(number_of_motor_vehicles_in_transport_mvit) from crash; --no abnormal data</p>
 <p style="font-family:verdana"> select  max(number_of_parked_working_vehicles), min(number_of_parked_working_vehicles) from crash; --no abnormal data</p>
+ <p style="font-family:verdana"> select  max(number_of_forms_submitted_for_persons_not_in_motor_vehicles), min(number_of_forms_submitted_for_persons_not_in_motor_vehicles) from crash --no abnormal data ;</p>
+<p style="font-family:verdana"> select  max(number_of_persons_in_motor_vehicles_in_transport_mvit), min(number_of_persons_in_motor_vehicles_in_transport_mvit) from crash ; --no abnormal data </p>
+<p style="font-family:verdana"> select  max(number_of_persons_not_in_motor_vehicles_in_transport_mvit), min(number_of_persons_not_in_motor_vehicles_in_transport_mvit) from crash ; --no abnormal data</p>
+<p style="font-family:verdana"> select distinct land_use_name from crash ; --no abnormal data</p>
+<p style="font-family:verdana"> select distinct functional_system_name from crash ; --no abnormal data</p>
+<p style="font-family:verdana"> select min(milepoint),max(milepoint) from crash ; --no abnormal data</p>
+<p style="font-family:verdana"> select distinct manner_of_collision_name from crash ;--no abnormal data</p>
+  
+  
+  
 </div>
 <h4>4.2 Data Cleansing</h4>
 <p> From data validation, found that data time in column timestamp_of_crash  isn't displayed in local time, so it must be converted to local time in every states in USA, the step to convert time is shown in this following item: </p>
-<h5>Import table local time of states USA </h5>
-<p> this table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="">Click here</a></p>
+<h5>Import table local time of states USA to the same server as main table</h5>
+<p> this table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="https://docs.google.com/spreadsheets/d/1I4XkiuiteYmqRUeOvniIAuO7CPi0wFmr8j85eGVXJJQ/edit?usp=sharing">Click here</a></p>
 <h5>Add new coloumn in main table </h5>
 <h5>Insert data in new coloumn </h5>
 <h5>Import table local time of states USA </h5>
