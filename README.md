@@ -80,11 +80,26 @@ first I  need to identify the following data:</p>
 <p style="margin-left: 20px;text-align:justify">The querry for identify the following item  :</p>
 <p style="margin-left: 30px">•  Top 10 states where the most accidents occur </p>
 <p style="margin-left: 45px">Querry
+   <div style="margin-left: 45px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
+   <p style="font-family:verdana"> select state_name, count(consecutive_number) as jumlah_kecelakaan </p>
+   <p style="font-family:verdana"> from crash </p>
+   <p style="font-family:verdana"> group by 1 </p>
+   <p style="font-family:verdana"> order by 2 desc </p>
+   <p style="font-family:verdana"> limit 10 </p>
+   </div>
 <p style="margin-left: 45px">Output	
 <p style="margin-left: 30px">•  The average number of accidents per day by hour accident </p>
+<p style="margin-left: 45px">Querry
+<p style="margin-left: 45px">Output
 <p style="margin-left: 30px">•  Percentage of accidents caused by drunk drivers </p>
+<p style="margin-left: 45px">Querry
+<p style="margin-left: 45px">Output
 <p style="margin-left: 30px">•  Percentage of accidents in rural and urban areas </p>
+<p style="margin-left: 45px">Querry
+<p style="margin-left: 45px">Output
 <p style="margin-left: 30px">•  Number of accidents by day </p>
+<p style="margin-left: 45px">Querry
+<p style="margin-left: 45px">Output
 
 
 
