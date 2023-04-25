@@ -49,14 +49,14 @@ first I  need to identify the following data:</p>
 <h4 style="margin-left: 45px">• Import table local time of states USA to the same server as main table</h4>
 <p style="margin-left: 50px"> This table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="https://docs.google.com/spreadsheets/d/1I4XkiuiteYmqRUeOvniIAuO7CPi0wFmr8j85eGVXJJQ/edit?usp=sharing">Click here</a></p>
 <p style="margin-left: 45px">output:<p>
-<h4 style="margin-left: 45px">• Add new coloumn in main table </h4>
+<h4 style="margin-left: 43px">• Add new coloumn in main table </h4>
 <p style="margin-left: 50px">Querry for add new coloumn in table crash:
- <div style="margin-left: 50pxheight:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
+ <div style="margin-left: 50px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
   <p style="font-family:verdana"> alter table	crash </p>
   <p style="font-family:verdana">add column	timezone_code text,</p>
   <p style="font-family:verdana">add column	local_time timestamp </p>
   </div>
-<h4 style="margin-left: 45px">• Insert data in new coloumn </h4>
+<h4 style="margin-left: 43px">• Insert data in new coloumn </h4>
 <p style="margin-left: 50px">Querry for add data in column timezone_code in  table crash based on data in table us_timezone:
  <div style="margin-left: 50px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
   <p style="font-family:verdana"> update	crash</p>
@@ -65,12 +65,12 @@ first I  need to identify the following data:</p>
 	 <p style="font-family:verdana"> from	timezone </p>
 	 <p style="font-family:verdana"> where	crash.state_name = timezone.state_name) </p>
   </div>
-  <p style="margin-left: 45px">Querry for add data in column local_time in  table crash :
+  <p style="margin-left: 43px">Querry for add data in column local_time in  table crash :
  <div style="margin-left: 50px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
    <p style="font-family:verdana"> update	crash </p>
    <p style="font-family:verdana"> set		local_time = timestamp_of_crash at time zone timezone_code </p>
   </div>
-<h4 style="margin-left: 45px">• Remove data before and after 2022 </h4>
+<h4 style="margin-left: 43px">• Remove data before and after 2022 </h4>
 <p style="margin-left: 50px">Querry for Remove data before and after 2022 table crash :
  <div style="margin-left: 50px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
 	 <p style="font-family:verdana">  delete from	crash </p>
