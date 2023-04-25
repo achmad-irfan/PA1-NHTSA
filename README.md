@@ -30,7 +30,29 @@ first I  need to identify the following data:</p>
 
  
   
-  <div style="height:300px;width:1000px;overflow:auto;border:4px solid black;padding:2%">This scroll box has had a border added to it. You can add borders to anything in HTML - including scroll boxes.</div>
+  <div style="height:300px;width:1000px;overflow:auto;border:4px solid black;padding:2%">
+select  count(consecutive_number) from crash ;
+select  count(distinct consecutive_number) from crash ; -- data OK
+select  distinct state_name from crash ;
+select  max(number_of_vehicle_forms_submitted_all), min(number_of_vehicle_forms_submitted_all) from crash ;
+select  max(number_of_motor_vehicles_in_transport_mvit), min(number_of_motor_vehicles_in_transport_mvit) from crash;
+select  max(number_of_parked_working_vehicles), min(number_of_parked_working_vehicles) from crash;
+select  max(number_of_forms_submitted_for_persons_not_in_motor_vehicles), min(number_of_forms_submitted_for_persons_not_in_motor_vehicles) from crash  ;
+select  max(number_of_persons_in_motor_vehicles_in_transport_mvit), min(number_of_persons_in_motor_vehicles_in_transport_mvit) from crash ;
+select  max(number_of_persons_not_in_motor_vehicles_in_transport_mvit), min(number_of_persons_not_in_motor_vehicles_in_transport_mvit) from crash ;
+select distinct land_use_name from crash ;
+select distinct functional_system_name from crash ;
+select min(milepoint),max(milepoint) from crash ;
+select distinct manner_of_collision_name from crash ;
+select distinct type_of_intersection_name from crash   ;
+select distinct light_condition_name from crash ;
+select distinct atmospheric_conditions_1_name from crash ;
+select distinct number_of_fatalities from crash   ;
+select distinct number_of_drunk_drivers from crash  ;
+select min(timestamp_of_crash),max(timestamp_of_crash) from crash  ; -- ditemukan data timezonenya tidak sesuai dengan lokal time state amerika dan ada sebagian data di luar tahun 2021
+
+
+</div>
 
 
 
