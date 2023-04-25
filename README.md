@@ -19,10 +19,10 @@ first I  need to identify the following data:</p>
 <h3>3. Dataset:</h3>
 <p style="margin-left: 20px">Data can be access in the following link : <a href="https://drive.google.com/file/d/1wiFf1VpFRXXUz9XpHjb--6vFDoNiCVDK/view?usp=sharing">Click here</a></p>
 <h3>4. Data Preparation</h3>
-<h4 margin-left: 10px>4.1 Data Validation</h4>
+<h4 style="margin-left: 10px">4.1 Data Validation</h4>
 <p style="margin-left: 30px"> All the data must be checked whetever there is a abnormal data. The  queery for data checking and validating :</p>
 
-<div style="height:200px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+<div style="margin-left: 30px;height:200px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
 <p style="font-family:verdana"> count(consecutive_number) from crash ;-- to count consecutive number (unique code in every traffic accident) </p>
 <p style="font-family:verdana"> select count(distinct consecutive_number) from crash ; -- data is equivalent with previous queery </p>
 <p style="font-family:verdana"> select  distinct state_name from crash ; --no abnormal data </p> 
