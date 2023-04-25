@@ -47,18 +47,18 @@ first I  need to identify the following data:</p>
 <h4 style="margin-left: 10px">4.2 Data Cleansing</h4>
 <p style="margin-left: 30px"> From data validation, found that data time in column timestamp_of_crash  isn't displayed in local time, so it must be converted to local time in every states in USA, the step to convert time is shown in this following item: </p>
 <h4 style="margin-left: 45px">• Import table local time of states USA to the same server as main table</h4>
-<p style="margin-left: 45px"> this table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="https://docs.google.com/spreadsheets/d/1I4XkiuiteYmqRUeOvniIAuO7CPi0wFmr8j85eGVXJJQ/edit?usp=sharing">Click here</a></p>
+<p style="margin-left: 50px"> This table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="https://docs.google.com/spreadsheets/d/1I4XkiuiteYmqRUeOvniIAuO7CPi0wFmr8j85eGVXJJQ/edit?usp=sharing">Click here</a></p>
 <p style="margin-left: 45px">output:<p>
 <h4 style="margin-left: 45px">• Add new coloumn in main table </h4>
-<p style="margin-left: 45px">Querry for add new coloumn in table crash:
- <div style="height:50px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+<p style="margin-left: 50px">Querry for add new coloumn in table crash:
+ <div style="margin-left: 50pxheight:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
   <p style="font-family:verdana"> alter table	crash </p>
   <p style="font-family:verdana">add column	timezone_code text,</p>
   <p style="font-family:verdana">add column	local_time timestamp </p>
   </div>
 <h4 style="margin-left: 45px">• Insert data in new coloumn </h4>
-<p style="margin-left: 45px">Querry for add data in column timezone_code in  table crash based on data in table us_timezone:
- <div style="height:50px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+<p style="margin-left: 50px">Querry for add data in column timezone_code in  table crash based on data in table us_timezone:
+ <div style="margin-left: 50px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
   <p style="font-family:verdana"> update	crash</p>
   <p style="font-family:verdana"> set 	timezone_code = </p>
  <p style="font-family:verdana">	(select code </p>
@@ -66,13 +66,13 @@ first I  need to identify the following data:</p>
 	 <p style="font-family:verdana"> where	crash.state_name = timezone.state_name) </p>
   </div>
   <p style="margin-left: 45px">Querry for add data in column local_time in  table crash :
- <div style="height:50px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+ <div style="margin-left: 50px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
    <p style="font-family:verdana"> update	crash </p>
    <p style="font-family:verdana"> set		local_time = timestamp_of_crash at time zone timezone_code </p>
   </div>
 <h4 style="margin-left: 45px">• Remove data before and after 2022 </h4>
-<p style="margin-left: 45px">Querry for Remove data before and after 2022 table crash :
- <div style="height:50px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+<p style="margin-left: 50px">Querry for Remove data before and after 2022 table crash :
+ <div style="margin-left: 50px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
 	 <p style="font-family:verdana">  delete from	crash </p>
   <p style="font-family:verdana">  where local_time not between '2021-01-01 00:00:00' and '2021-12-31 23:59:59' </p>
   </div>
