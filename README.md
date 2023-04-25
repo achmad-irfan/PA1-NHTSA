@@ -42,7 +42,17 @@ first I  need to identify the following data:</p>
 <p style="font-family:verdana"> select distinct functional_system_name from crash ; --no abnormal data</p>
 <p style="font-family:verdana"> select min(milepoint),max(milepoint) from crash ; --no abnormal data</p>
 <p style="font-family:verdana"> select distinct manner_of_collision_name from crash ;--no abnormal data</p>
-  
+<p style="font-family:verdana"> select distinct type_of_intersection_name from crash   ;--no abnormal data</p>
+<p style="font-family:verdana"> select distinct light_condition_name from crash ;--no abnormal data</p>
+<p style="font-family:verdana"> select distinct atmospheric_conditions_1_name from crash ;--no abnormal data</p>
+<p style="font-family:verdana"> select distinct number_of_fatalities from crash   ; --no abnormal data</p>
+<p style="font-family:verdana"> select distinct number_of_drunk_drivers from crash  ; --no abnormal data</p>
+<p style="font-family:verdana"> select min(timestamp_of_crash),max(timestamp_of_crash) from crash  ; -- found that time is not in local state of USA, so it must to convert to local time </div>
+ 
+ 
+ 
+ 
+ 
   
   
 </div>
