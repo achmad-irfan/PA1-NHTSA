@@ -46,8 +46,8 @@ first I  need to identify the following data:</p>
 <p style="font-family:verdana"> select distinct atmospheric_conditions_1_name from crash ;</p>
 <p style="font-family:verdana"> select distinct number_of_fatalities from crash   ;</p>
 <p style="font-family:verdana"> select distinct number_of_drunk_drivers from crash  ;</p>
-<p style="font-family:verdana"> select min(timestamp_of_crash),max(timestamp_of_crash) from crash  ; -- ditemukan data timezonenya tidak sesuai dengan lokal time state amerika dan ada sebagian data di luar tahun 2021</p>
-</div>
+<p style="font-family:verdana"> select min(timestamp_of_crash),max(timestamp_of_crash) from crash  ; -- ditemukan data timezonenya tidak sesuai dengan lokal time state amerika dan ada sebagian data di luar tahun 2021
+  </div>
 
 <h4>Data Cleansing</h4>
 
