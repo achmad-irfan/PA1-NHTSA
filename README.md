@@ -22,7 +22,7 @@ first I  need to identify the following data:</p>
 <h4 style="margin-left: 10px">4.1 Data Validation</h4>
 <p style="margin-left: 30px"> All the data must be checked whetever there is a abnormal data. The  queery for data checking and validating :</p>
 
-<div style="margin-left: 30px;height:200px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+<div style="margin-left: 30px;height:200px;width:1000px;border:1px solid #ccc;font:8px/12px Georgia, Garamond, Serif;overflow:auto;">
 <p style="font-family:verdana"> count(consecutive_number) from crash ;-- to count consecutive number (unique code in every traffic accident) </p>
 <p style="font-family:verdana"> select count(distinct consecutive_number) from crash ; -- data is equivalent with previous queery </p>
 <p style="font-family:verdana"> select  distinct state_name from crash ; --no abnormal data </p> 
