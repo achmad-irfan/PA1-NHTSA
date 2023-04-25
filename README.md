@@ -47,7 +47,10 @@ first I  need to identify the following data:</p>
 <p style="margin-left: 30px"> From data validation, found that data time in column timestamp_of_crash  isn't displayed in local time, so it must be converted to local time in every states in USA, the step to convert time is shown in this following item: </p>
 <h4 style="margin-left: 45px">• Import table local time of states USA to the same server as main table</h4>
 <p style="margin-left: 50px"> This table is contain the code of local time is every states in USA, new table can be access in the following link : <a href="https://docs.google.com/spreadsheets/d/1I4XkiuiteYmqRUeOvniIAuO7CPi0wFmr8j85eGVXJJQ/edit?usp=sharing">Click here</a></p>
-<p style="margin-left: 45px">output:<p>
+<p style="margin-left: 47px">output:<p>
+<p align="center"> 
+<img src="importnewtable.png" class="img-fluid" alt="">  
+</p>
 <h4 style="margin-left: 43px">• Add new coloumn in main table </h4>
 <p style="margin-left: 50px">Querry for add new coloumn in table crash:
  <div style="margin-left: 50px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
