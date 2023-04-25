@@ -4,7 +4,7 @@
 <h2> NHTSA</h2>
 <p> URL Dashoboard project : <a href="https://app.powerbi.com/view?r=eyJrIjoiMjI5NDY4NGMtNjg2Zi00ZjA1LWI4Y2UtYWJjOTNhZDYxNmU0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">NHTSA</a></p>
 <h3> 1. Background Project :</h3>
-<p style="margin-left: 20px";"text-align:right"> NHTSA is one such department government in the United States focused on reducing the number
+<p style="margin-left: 20px";"text-align:justify"> NHTSA is one such department government in the United States focused on reducing the number
 traffic accident on the highway.
 Currently NHTSA is brewing a new regulation that will be implemented next year
 . I was asked to
