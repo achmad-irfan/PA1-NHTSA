@@ -4,7 +4,7 @@
 <h2> NHTSA</h2>
 <p> URL Dashoboard project : <a href="https://app.powerbi.com/view?r=eyJrIjoiMjI5NDY4NGMtNjg2Zi00ZjA1LWI4Y2UtYWJjOTNhZDYxNmU0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">NHTSA</a></p>
 <h3> 1. Background Project :</h3>
-<p style="margin-left: 20px"> NHTSA is one such department government in the United States focused on reducing the number
+<p style="margin-left: 20px;text-align:center"> NHTSA is one such department government in the United States focused on reducing the number
 traffic accident on the highway.
 Currently NHTSA is brewing a new regulation that will be implemented next year
 . I was asked to
@@ -14,19 +14,19 @@ complete information about accidents that occurred during 2021.</p>
 <p style="margin-left: 20px">  The main purpose is to provide a number of recommendations
 about how to reduce the number of accidents on the highway. To do this,
 first I  need to identify the following data:</p>
-<p>•  Conditions that increase the risk of an accident </p>
-<p>•  Top 10 states where the most accidents occur </p>
-<p>•  The average number of accidents per day by hour accident </p>
-<p>•  Percentage of accidents caused by drunk drivers </p>
-<p>•  Percentage of accidents in rural and urban areas </p>
-<p>•  Number of accidents by day </p>
+<p style="margin-left: 20px">•  Conditions that increase the risk of an accident </p>
+<p style="margin-left: 20px">•  Top 10 states where the most accidents occur </p>
+<p style="margin-left: 20px">•  The average number of accidents per day by hour accident </p>
+<p style="margin-left: 20px">•  Percentage of accidents caused by drunk drivers </p>
+<p style="margin-left: 20px">•  Percentage of accidents in rural and urban areas </p>
+<p style="margin-left: 20px">•  Number of accidents by day </p>
 
 
 <h3>3. Dataset:</h3>
-<p>Data can be access in the following link : <a href="https://drive.google.com/file/d/1wiFf1VpFRXXUz9XpHjb--6vFDoNiCVDK/view?usp=sharing">Click here</a></p>
+<p style="margin-left: 20px">Data can be access in the following link : <a href="https://drive.google.com/file/d/1wiFf1VpFRXXUz9XpHjb--6vFDoNiCVDK/view?usp=sharing">Click here</a></p>
 <h3>4. Data Preparation</h3>
 <h4>4.1 Data Validation</h4>
-<p> All the data must be checked whetever there is a abnormal data. The  queery for data checking and validating :</p>
+<p style="margin-left: 20px"> All the data must be checked whetever there is a abnormal data. The  queery for data checking and validating :</p>
 
 <div style="height:200px;width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
 <p style="font-family:verdana"> count(consecutive_number) from crash ;-- to count consecutive number (unique code in every traffic accident) </p>
