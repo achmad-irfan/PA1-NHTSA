@@ -8,7 +8,6 @@
 <h3>2. Purpose:</h3>
 <p style="margin-left: 20px;text-align:justify">  The main purpose is to provide a number of recommendations about how to reduce the number of accidents on the highway. To do this,
 first I  need to identify the following data:</p>
-<p style="margin-left: 20px">•  Conditions that increase the risk of an accident </p>
 <p style="margin-left: 20px">•  Top 10 states where the most accidents occur </p>
 <p style="margin-left: 20px">•  The average number of accidents per day by hour accident </p>
 <p style="margin-left: 20px">•  Percentage of accidents caused by drunk drivers </p>
@@ -173,3 +172,7 @@ first I  need to identify the following data:</p>
 </p>
 
 <h3>6. Insight and Recomendation</h3>
+<p style="margin-left: 20px">•  Based on data, texas and california is states that have most traffic accident in 2022 </p>
+<p style="margin-left: 20px">•  The interval time between 12-15 is the most prone to accident    </p>
+<p style="margin-left: 20px">•  25% percent of traffic accident in usa is because people drunk    </p>
+<p style="margin-left: 20px">•  The probability of traffic accident is 25% higher in weekend than weekday </p>
