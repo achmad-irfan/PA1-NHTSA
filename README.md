@@ -102,7 +102,10 @@ first I  need to identify the following data:</p>
    <p style="font-family:verdana"> order by 2 desc </p>
    <p style="font-family:verdana"> limit 10 </p>
    </div>
-<p style="margin-left: 45px">Output	
+<p style="margin-left: 45px">Output
+<p align="center"> 
+<img src="dataanalyze1.png" class="img-fluid" alt="">  
+</p>
 <p style="margin-left: 30px">•  The average number of accidents per day by hour accident </p>
 <p style="margin-left: 45px">Querry
 	<div style="margin-left: 45px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">	
@@ -113,6 +116,9 @@ first I  need to identify the following data:</p>
 	<p style="font-family:verdana"> order by rata2_kecelakaan desc </p>
 	</div>
 <p style="margin-left: 45px">Output
+<p align="center"> 
+<img src="dataanalyze2.png" class="img-fluid" alt="">  
+</p>
 <p style="margin-left: 30px">•  Percentage of accidents caused by drunk drivers </p>
 <p style="margin-left: 45px">Querry
 	<div style="margin-left: 45px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
@@ -128,6 +134,9 @@ first I  need to identify the following data:</p>
 	<p style="font-family:verdana">group by 1 </p>
 	</div>
 <p style="margin-left: 45px">Output
+<p align="center"> 
+<img src="dataanalyze3.png" class="img-fluid" alt="">  
+</p>
 <p style="margin-left: 30px">•  Percentage of accidents in rural and urban areas </p>
 <p style="margin-left: 45px">Querry
 	<div style="margin-left: 45px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
@@ -146,6 +155,9 @@ first I  need to identify the following data:</p>
 		<p style="font-family:verdana">group by land </p>
 		</div>
 <p style="margin-left: 45px">Output
+	<p align="center"> 
+<img src="dataanalyze4.png" class="img-fluid" alt="">  
+</p>
 <p style="margin-left: 30px">•  Number of accidents by day </p>
 <p style="margin-left: 45px">Querry
 	<div style="margin-left: 45px;height:50px;width:1000px;border:1px solid #ccc;font:10px/12px Georgia, Garamond, Serif;overflow:auto;">
@@ -156,6 +168,8 @@ first I  need to identify the following data:</p>
 	<p style="font-family:verdana"> order by harii </p>
 	</div>
 <p style="margin-left: 45px">Output
-
+<p align="center"> 
+<img src="dataanalyze5.png" class="img-fluid" alt="">  
+</p>
 
 
