@@ -2,7 +2,7 @@
 
 
 <h2> NHTSA</h2>
-<p> URL Dashoboard project : <a href="https://app.powerbi.com/view?r=eyJrIjoiMjI5NDY4NGMtNjg2Zi00ZjA1LWI4Y2UtYWJjOTNhZDYxNmU0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">NHTSA</a></p>
+<p> URL Dashoboard project (Bonus) : <a href="https://app.powerbi.com/view?r=eyJrIjoiMjI5NDY4NGMtNjg2Zi00ZjA1LWI4Y2UtYWJjOTNhZDYxNmU0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">NHTSA</a></p>
 <h3> 1. Background Project :</h3>
 <p style="margin-left: 20px;text-align:justify"> NHTSA is one such department government in the United States focused on reducing the number traffic accident on the highway. Currently NHTSA is brewing a new regulation that will be implemented next year. I was asked to analyze the data collected during 2021. This data is a complete information about accidents that occurred during 2021.</p>
 <h3>2. Purpose:</h3>
@@ -176,4 +176,4 @@ first I  need to identify the following data:</p>
 <p style="margin-left: 40px">•  The interval time between 12-15 is the most prone to accident    </p>
 <p style="margin-left: 40px">•  25% percent of traffic accident in usa is because people drunk    </p>
 <p style="margin-left: 40px">•  The probability of traffic accident is 25% higher in weekend than weekday </p>
-<p style="margin-left: 40px">•  Based on data, to reduce the number of traffic accident in 2023, We recommend increasing the number of sheriffs on duty during lunch hours, especially on weekends, as this is an accident-prone time in the Texas and California areas.</p>
+<p style="margin-left: 40px">•  Based on data, to reduce the number of traffic accident in 2022, We recommend increasing the number of sheriffs on duty during lunch hours, especially on weekends, as this is an accident-prone time in the Texas and California areas.</p>
